@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Candal|Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Arial";
+     background-color: #EE5050;
+}
+
+h5{
+     font-weight: normal;
+     text-align: center;
+     color: #fff;
+     letter-spacing: 0.4px;
+     font-family: 'Chau Philomene One';
+}
+
+article.main{
+     height: 100vh;
+     width: 100%;
+     /* border: 1px solid red; */
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+.thank{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.thank1{
+     font-size: 5em;
+     color: #f0f0f0;
+     font-family: 'Rajdhani';
+}
+
+.thank2{
+     font-size: 5em;
+     color: #f0f0f0;
+     text-transform: uppercase;
+     font-family: 'Candal';
+}
+.links{
+     border: 2px solid #EE5050;
+     color:#f0f0f0;
+     align-self: center;
+}
+
+.links>ul>li{
+     font-size: 1.4em;
+     font-family: monospace;
+}
+.links>ul{
+     list-style-position: inside;
+}
+
+.back{
+     text-decoration: none;
+     color: #f0f0f0;
+     align-self: center;
+     font-size: 1.2em;
+     border: 2px solid #f0f0f0;
+     padding: 20px 30px;
+     border-radius: 40px 0 40px 0;
+     font-family: 'Lobster';
+     letter-spacing: 0.2px;
+     transition: 0.3s;
+     background-color: #f0f0f0;
+     color: #EE5050;
+}
+
+
+.back:hover{
+     font-size: 1.2em;
+     text-decoration: none;
+     background-color: #EE5050;
+     align-self: center;
+     color:#f0f0f0;
+     border: 2px solid #f0f0f0;
+     padding: 20px 30px;
+     border-radius: 40px 0 40px 0;
+     font-family: 'Lobster';
+     letter-spacing: 0.2px;
+}
+
+@media (max-width:650px) {
+     .thank1{
+          font-size: 4em;
+     }
+
+     .thank2{
+          font-size: 4em;
+     }
+     .links>ul>li{
+          font-size: 1.4em;
+     }
+     .back{
+          font-size: 1.2em;
+          border: 2px solid #f0f0f0;
+          padding: 20px 30px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+     .back:hover{
+          font-size: 1.2em;
+          border: 2px solid #f0f0f0;
+          padding: 20px 30px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+}
+
+
+@media (max-width:550px) {
+     .thank1{
+          font-size: 3.5em;
+     }
+
+     .thank2{
+          font-size: 3em;
+     }
+     .links>ul>li{
+          font-size: 1.4em;
+     }
+     .back{
+          font-size: 1.2em;
+          border: 2px solid #f0f0f0;
+          padding: 20px 30px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+     .back:hover{
+          font-size: 1.2em;
+          border: 2px solid #f0f0f0;
+          padding: 20px 30px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+}
+
+@media (max-width:420px) {
+     .thank1{
+          font-size: 3em;
+     }
+
+     .thank2{
+          font-size: 2.5em;
+     }
+     .links>ul>li{
+          font-size: 1.2em;
+     }
+     .back{
+          font-size: 1.2em;
+          border: 2px solid #f0f0f0;
+          padding: 20px 30px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+     .back:hover{
+          font-size: 1.2em;
+          border: 2px solid #f0f0f0;
+          padding: 20px 30px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+}
+@media (max-width:350px) {
+     .thank1{
+          font-size: 2.5em;
+     }
+
+     .thank2{
+          font-size: 2em;
+     }
+     .links>ul>li{
+          font-size: 1.1em;
+     }
+     .back{
+          font-size: 1em;
+          border: 2px solid #f0f0f0;
+          padding: 15px 25px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+     .back:hover{
+          font-size: 1em;
+          border: 2px solid #f0f0f0;
+          padding: 15px 25px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+}
+
+@media (max-width:280px) {
+     .thank1{
+          font-size: 2.5em;
+     }
+
+     .thank2{
+          font-size: 1.5em;
+     }
+     .links>ul>li{
+          font-size: 1.1em;
+     }
+     .back{
+          font-size: 1em;
+          border: 2px solid #f0f0f0;
+          padding: 15px 25px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+     .back:hover{
+          font-size: 1em;
+          border: 2px solid #f0f0f0;
+          padding: 15px 25px;
+          border-radius: 40px 0 40px 0;
+          letter-spacing: 0.2px;
+     }
+}

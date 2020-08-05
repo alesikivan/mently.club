@@ -1,0 +1,179 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: arial
+}
+
+body{
+     background-color: #02EEB0;
+     display: flex;
+}
+
+
+article.main{
+     margin: 100px auto;
+     height: 70vh;
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-between;
+}
+article.main>span{
+     font-size: 1.3em;
+     font-family: 'Ubuntu Condensed', sans-serif;
+     text-transform:uppercase;
+}
+
+article.main>h1{
+     font-size: 1.3em;
+     font-family: 'Russo One';
+     font-size: 3.5em;
+     font-weight: normal;
+     letter-spacing: 3px;
+     text-transform:uppercase;
+}
+
+article.main>p{
+     max-width: 35%;
+     font-size: 1.3em;
+     font-family: 'Ubuntu Condensed', sans-serif;
+     text-transform:uppercase;
+     display: block;
+     border-left: 2px solid black;
+     padding-left: 10px;
+}
+
+article.main>a{
+     font-size: 1.3em;
+     font-weight: bold;
+     color: #000;
+     font-family:monospace;
+     padding: 10px 20px;
+     border: 2px solid black;
+     border-radius: 10px;
+     text-decoration: none;
+     text-align: center;
+     transition: 0.4s;
+}
+
+article.main>a:hover{
+     transition: 0.4s;
+     color: #fff;
+     border-color: #fff;
+}
+
+
+@media (max-width: 1200px) {
+     article.main>h1{
+          font-size: 3em;
+          letter-spacing: 3px;
+     }
+}
+
+@media (max-width: 1000px) {
+     article.main>span{
+          font-size: 1em;
+     }
+     article.main>h1{
+          font-size: 2.5em;
+          letter-spacing: 3px;
+     }
+     article.main>p{
+          max-width: 35%;
+          font-size: 1em;
+          border-left: 2px solid black;
+          padding-left: 10px;
+     }
+}
+
+@media (max-width: 750px) {
+     article.main>span{
+          font-size: 1em;
+     }
+     article.main>h1{
+          font-size: 2em;
+          letter-spacing: 2px;
+     }
+     article.main>p{
+          max-width: 40%;
+          font-size: 0.9em;
+          border-left: 2px solid black;
+          padding-left: 10px;
+     }
+}
+
+@media (max-width: 550px) {
+     article.main>span{
+          font-size: 0.9em;
+     }
+     article.main>h1{
+          font-size: 1.8em;
+          letter-spacing: 2px;
+     }
+     article.main>p{
+          max-width: 60%;
+          font-size: 0.9em;
+          border-left: 2px solid black;
+          padding-left: 10px;
+     }
+}
+
+@media (max-width: 450px) {
+     article.main>span{
+          font-size: 0.8em;
+     }
+     article.main>h1{
+          font-size: 1.6em;
+          letter-spacing: 1px;
+     }
+     article.main>p{
+          max-width: 70%;
+          font-size: 0.9em;
+          border-left: 2px solid black;
+          padding-left: 10px;
+     }
+}
+
+@media (max-width: 350px) {
+     article.main>span{
+          font-size: 0.6em;
+     }
+     article.main>h1{
+          font-size: 1.4em;
+          letter-spacing: 1px;
+     }
+     article.main>p{
+          max-width: 70%;
+          font-size: 0.7em;
+          border-left: 2px solid black;
+          padding-left: 10px;
+     }
+     article.main>a{
+          font-size: 1.1em;
+          padding: 5px 10px;
+          border: 2px solid black;
+          border-radius: 10px;
+     }
+}
+
+@media (max-width: 250px) {
+     article.main>span{
+          font-size: 0.6em;
+     }
+     article.main>h1{
+          font-size: 1.2em;
+     }
+     article.main>p{
+          max-width: 70%;
+          font-size: 0.7em;
+          border-left: 2px solid black;
+          padding-left: 10px;
+     }
+     article.main>a{
+          font-size: 1.1em;
+          padding: 5px 10px;
+          border: 2px solid black;
+          border-radius: 10px;
+     }
+}

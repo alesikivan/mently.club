@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Random</title>
+     <link rel="stylesheet" href="css/random.css">
+
+     <script src="js/random.js" defer></script>
+</head>
+<body>
+
+     <article class="main">
+          <h1>True Random <br>Number Generator</h1>
+          <p>MIN: <input type="number" name="min" id="min" value="1"></p>
+          <p>MAX: <input type="number" name="max" id="max" value="100"></p>
+          <button type="button" name="button" onclick="press()" id="btn">Generate</button>
+          <br>
+          <br>
+          <b>Result: <span id="result"></span></b>
+     </article>
+
+     <nav id="change" onclick="changeFunc()"></nav>
+
+</body>
+</html>
